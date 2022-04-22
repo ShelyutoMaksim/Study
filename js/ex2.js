@@ -41,3 +41,9 @@ function sortStudentsByGroups(students) {
 }
 
 sortStudentsByGroups(students);
+if (typeof(b) === 'string' || b<=0) {
+    b = 1;
+    c = Math.pow (a,b);
+} else {
+    c = Math.pow (a,b);
+}
