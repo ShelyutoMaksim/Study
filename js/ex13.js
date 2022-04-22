@@ -28,8 +28,7 @@ const shoppingMallData = {
 function isBudgetEnough() {
     let coast = 0;
     shoppingMallData.shops.forEach ((item) => {
-        let volumeOfShops = item.length * item.width * shoppingMallData.height * shoppingMallData.moneyPer1m3;
-        coast += volumeOfShops;
+        coast += item.length * item.width * shoppingMallData.height * shoppingMallData.moneyPer1m3;
     });
     if (coast > shoppingMallData.budget) {
         console.log('Бюджета недостаточно');
