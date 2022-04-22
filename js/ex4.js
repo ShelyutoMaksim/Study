@@ -47,3 +47,4 @@ function thirdTask() {
     // Не трогаем
     return result;
 }
+//
