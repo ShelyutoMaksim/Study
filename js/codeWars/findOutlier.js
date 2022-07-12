@@ -22,3 +22,4 @@ function findOutlier(integers) {
 
 console.log(findOutlier([2, 4, 5, 6, 8]))
 // console.log(findOutlier([1, 2, 3, 5, 7]))
+// console.log(findOutlier([0, 1, 3, 5, 7]))
